@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/frag1">
+
+    <fragment
+        android:id="@+id/frag1"
+        android:name="com.test.variaspantallas.fragments.frag1"
+        android:label="frag1_fragment"
+        tools:layout="@layout/frag1_fragment" >
+        <action
+            android:id="@+id/action_frag1_to_carListFrag"
+            app:destination="@id/carListFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/carListFrag"
+        android:name="com.test.variaspantallas.fragments.CarListFrag"
+        android:label="car_list_fragment"
+        tools:layout="@layout/car_list_fragment" />
+</navigation>
