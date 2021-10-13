@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/frag1"
-        android:name="com.test.variaspantallas.fragments.frag1"
+        android:name="com.test.CarEGY.fragments.frag1"
         android:label="frag1_fragment"
         tools:layout="@layout/frag1_fragment" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/carListFrag"
-        android:name="com.test.variaspantallas.fragments.CarListFrag"
+        android:name="com.test.CarEGY.fragments.CarListFrag"
         android:label="car_list_fragment"
         tools:layout="@layout/car_list_fragment" />
 </navigation>

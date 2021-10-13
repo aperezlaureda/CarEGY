@@ -1,4 +1,4 @@
-package com.test.variaspantallas.fragments
+package com.test.CarEGY.fragments
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.test.variaspantallas.R
-import com.test.variaspantallas.adapters.carAdapter
-import com.test.variaspantallas.viewmodls.CarListFragViewModel
-import com.test.variaspantallas.entities.CarRepository
+import com.test.CarEGY.R
+import com.test.CarEGY.adapters.carAdapter
+import com.test.CarEGY.viewmodls.CarListFragViewModel
+import com.test.CarEGY.entities.CarRepository
 
 class CarListFrag : Fragment() {
 
@@ -30,7 +30,7 @@ class CarListFrag : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.car_list_fragment, container, false)
+        v =  inflater.inflate(R.layout.car_list_fragment, container, false)
         recCar = v.findViewById(R.id.recCar)
         return v
     }

@@ -1,8 +1,8 @@
-package com.test.variaspantallas.activities
+package com.test.CarEGY.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.test.variaspantallas.R
+import com.test.CarEGY.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

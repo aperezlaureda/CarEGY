@@ -1,4 +1,4 @@
-package com.test.variaspantallas.adapters
+package com.test.CarEGY.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import com.test.variaspantallas.R
-import com.test.variaspantallas.entities.Car
+import com.test.CarEGY.R
+import com.test.CarEGY.entities.Car
 
 
 // clase que hereda las propiedades de recycler view y adapta la informacion a la vista
@@ -19,14 +19,14 @@ class carAdapter ( var carList : MutableList <Car>,
     // clase que es un view holder e intercatua con el item de la vista
     class CarHolder(v: View) : RecyclerView.ViewHolder(v)
     {
-        private var view: View
+        private var view: View  
         init {
             this.view = v
         }
 
         fun setmodel (model : String)
         {
-            var txtmodel : TextView = view.findViewById(R.id.txt_model)
+            var txtmodel : TextView = view.findViewById(R.id.txt_model)  //wiew
             txtmodel.text = model
         }
 

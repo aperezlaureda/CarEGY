@@ -1,4 +1,4 @@
-package com.test.variaspantallas.fragments
+package com.test.CarEGY.fragments
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.findNavController
-import com.test.variaspantallas.R
-import com.test.variaspantallas.viewmodls.Frag1ViewModel
+import com.test.CarEGY.R
+import com.test.CarEGY.viewmodls.Frag1ViewModel
 
 class frag1 : Fragment() {
 

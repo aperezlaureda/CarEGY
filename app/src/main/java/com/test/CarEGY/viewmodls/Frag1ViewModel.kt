@@ -1,4 +1,4 @@
-package com.test.variaspantallas.viewmodls
+package com.test.CarEGY.viewmodls
 
 import androidx.lifecycle.ViewModel
 

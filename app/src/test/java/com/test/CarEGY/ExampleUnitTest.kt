@@ -1,4 +1,4 @@
-package com.test.variaspantallas
+package com.test.CarEGY
 
 import org.junit.Test
 

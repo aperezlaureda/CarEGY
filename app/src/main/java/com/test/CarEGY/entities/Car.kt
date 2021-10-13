@@ -1,4 +1,4 @@
-package com.test.variaspantallas.entities
+package com.test.CarEGY.entities
 
 //clase de Autos
 class Car (
